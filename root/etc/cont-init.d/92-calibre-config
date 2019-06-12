@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+if [ ! -e /usr/bin/calibre-server ]; then
+  /opt/calibre/calibre_postinstall
+fi
